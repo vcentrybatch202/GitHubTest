@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-27T06:58:43Z" name="common Suite" finished-at="2022-01-27T06:59:38Z" duration-ms="55078">
+    <groups>
+    </groups>
+    <test started-at="2022-01-27T06:58:43Z" name="Google Test" finished-at="2022-01-27T06:59:20Z" duration-ms="36734">
+      <class name="sample1.SampleTest1">
+        <test-method signature="loadGoogle()[pri:0, instance:sample1.SampleTest1@1f0f1111]" started-at="2022-01-27T12:28:43Z" name="loadGoogle" finished-at="2022-01-27T12:29:19Z" duration-ms="35973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadGoogle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sample1.SampleTest1@1f0f1111]" started-at="2022-01-27T12:29:19Z" name="tearDown" finished-at="2022-01-27T12:29:20Z" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sample1.SampleTest1 -->
+    </test> <!-- Google Test -->
+    <test started-at="2022-01-27T06:59:20Z" name="bing Test" finished-at="2022-01-27T06:59:38Z" duration-ms="18284">
+      <class name="sample2.SampleTest2">
+        <test-method signature="loadGoogle()[pri:0, instance:sample2.SampleTest2@5223e5ee]" started-at="2022-01-27T12:29:20Z" name="loadGoogle" finished-at="2022-01-27T12:29:36Z" duration-ms="16537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadGoogle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sample2.SampleTest2@5223e5ee]" started-at="2022-01-27T12:29:36Z" name="tearDown" finished-at="2022-01-27T12:29:38Z" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sample2.SampleTest2 -->
+    </test> <!-- bing Test -->
+  </suite> <!-- common Suite -->
+</testng-results>
